@@ -25,53 +25,58 @@ Users can complete purchases via PayPal.
 
 
 ## Steps to run the code
-1. Download the repository:
-Download the ZIP file or clone the repository:
+Here's the reformatted version of the steps in the same style as before:
 
-git clone https://github.com/SHREYAS0712/E-commerce.git
+---
 
-2.Install client dependencies:
+### Steps to Run the Code:
 
-Navigate to the client directory and install dependencies:
+1. **Download the repository**:  
+   Download the zip code or use the command:  
+   ```bash
+   git clone https://github.com/SHREYAS0712/E-commerce.git
+   ```
 
-cd client && npm install
+2. **Install client dependencies**:  
+   Navigate to the `client` folder and run:  
+   ```bash
+   cd client && npm install
+   ```
 
-3.Navigate back to the root directory:
+3. **Navigate back to the root directory**:  
+   ```bash
+   cd ..
+   ```
 
-cd ..
+4. **Install server dependencies**:  
+   Navigate to the `server` folder and run:  
+   ```bash
+   cd server && npm install
+   ```
 
-4.Install server dependencies:
+5. **Set up accounts**:  
+   Create accounts for **PayPal** and **Cloudinary**.
 
-Navigate to the server directory and install dependencies:
+6. **Configure API keys**:  
+   Add your PayPal and Cloudinary API keys in the configuration files.
 
-cd server && npm install
+7. **Set PayPal mode**:  
+   Choose whether PayPal will operate in **sandbox** or **live** mode.
 
-5.Create accounts:
+8. **Add MongoDB connection**:  
+   Insert your MongoDB connection string in the `server.js` file.
 
-Set up accounts for PayPal and Cloudinary.
+9. **Run the client application**:  
+   Navigate to the `client` folder and start the application:  
+   ```bash
+   cd client && npm run dev
+   ```
 
-6.Configure API keys:
+10. **Run the server application**:  
+    Open another terminal, navigate to the `server` folder, and start the server:  
+    ```bash
+    cd server && npm run dev
+    ```
 
-Add your PayPal and Cloudinary keys in the respective configuration files.
-
-7.Set PayPal mode:
-
-Choose the PayPal mode (sandbox or live) based on your environment.
-
-8.Configure MongoDB:
-
-Add your MongoDB connection string in the server.js file.
-
-9.Run the client application:
-
-Navigate to the client directory and start the application:
-
-cd client && npm run dev
-
-10.Run the server application:
-
-Open a new terminal, navigate to the server directory, and start the server:
-
-cd server && npm run dev
 
 And All SET!!
