@@ -1,31 +1,32 @@
 ## E-commerce Application with MERN Stack and PayPal Integration
 This is a E-commerce application developed using the MERN stack (MongoDB, Express.js, React, Node.js). The application allows users to browse products, manage their shopping cart, and complete purchases through integrated PayPal payment functionality. Key features include:
 
-1.Product Management:
-Admins can add new products.
-Admins can update existing products.
-Admins can delete products.
 
-2.User Authentication:
-Secure login system for users.
-User registration functionality.
+---
 
-3.Shopping Cart:
-Users can add products to their cart.
-Users can update product quantities in their cart.
-Users can proceed to checkout.
+### Key Features:
 
-4.Order Management:
-Admins can view all customer orders.
-Admins can manage customer orders.
+1. **Product Management**:  
+   - Admins can add new products.  
+   - Admins can update existing products.  
+   - Admins can delete products.
 
-5.PayPal Integration:
-Secure PayPal integration for payment processing.
-Users can complete purchases via PayPal. 
+2. **User Authentication**:  
+   - Secure login system for users.  
+   - User registration functionality.  
 
+3. **Shopping Cart**:  
+   - Users can add products to their cart.  
+   - Users can update product quantities in their cart.  
+   - Users can proceed to checkout.
 
-## Steps to run the code
-Here's the reformatted version of the steps in the same style as before:
+4. **Order Management**:  
+   - Admins can view all customer orders.  
+   - Admins can manage customer orders.
+
+5. **PayPal Integration**:  
+   - Secure PayPal integration for payment processing.  
+   - Users can complete purchases via PayPal.
 
 ---
 
